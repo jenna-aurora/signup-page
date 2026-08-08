@@ -12,11 +12,13 @@
 		<body>
 		<header>
 		 <nav>
+		  <section id="links">
 			<ul>
 			  <li><a href="#welcome">Welcome</a></li>
 			  <li><a href="#why">Why join</a></li>
 			  <li><a href="#join">Join</a></li>
 			</ul>
+			</section>
 		  </nav>
 		  </header>
 		<main>
@@ -43,15 +45,16 @@
 		  <h2>Join</h2>
 		<form>
 		<label>Your name
-	  <input id="member-name" name="member-name" type="text" required placeholder="Ada">
+	  <input id="member-name" name="member-name" type="text" required placeholder="Name">
 	</label>
-	<label>Email (if you want news)</label>
-	  <input id="member-email" name="member-email" type="email">
+	<label>Email (if you want news)
+	  <input id="member-email" name="member-email" type="email" required placeholder="email@myemail.com">
+	</label>
 	<label>Choose a password
-	  <input id="member-password" name="member-password" type="password" required />
+	  <input id="member-password" name="member-password" type="password" required placeholder="********" />
 	</label>
-	<label for="social media">How did you hear about us:</label>
-	<select id="social media" name="social media">
+	<label for="social-media">How did you hear about us:</label>
+	<select id="social-media" name="social-media">
 	<option value="choose">Choose your role</option>
 	<option value="X">X</option>
 	<option value="lemon8">Lemon8</option>
