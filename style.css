@@ -27,15 +27,14 @@ textarea:focus {
 	border: 5px dashed pink;
 }
 #welcome h1 {
-  text-shadow: -0.5px -0.5px 1px pink;
+  text-shadow: 2px 2px 6px pink;
 }
 #welcome a:hover {
   background-color: neon yellow;
-  color: white;
 }
 #welcome {
   text-align: center;
-  padding: 3rem 1rem;
+  padding: 4rem 1rem;
 }
 .flex-container {
   display: flex;
